@@ -1,0 +1,54 @@
+
+body{
+    background-image: linear-gradient(red, blue);
+}
+#hello{
+    background: red;
+    /* outline-style: solid; */
+    /* outline-width: 10px; */
+    /* outline-color: blueviolet; */
+    text-decoration: underline;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+    padding: auto;
+    display: inline-block;
+    
+}
+p{
+    font-family: 'Tangerine', serif;  
+}
+a:hover,a:active{
+    background-color: blueviolet;
+    text-decoration: none;
+}
+ /* div{ 
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    overflow: auto;
+    float:none
+} */
+img{
+    height: 200px;
+
+    width: 200px;
+}
+div.imag{
+    background-color: blueviolet;
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin:5px;
+   
+
+
+}
+div.text{
+    text-align: center;
+}
